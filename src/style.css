@@ -1,0 +1,70 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+    background-color: rgb(197, 94, 94);
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    height: 60px;
+    width: 100%;
+    background-color:  rgb(197, 94, 94);
+    color: white;
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+    background-color: rgb(255, 188, 188);
+    border-radius: 7px;
+    border-width: 1px;
+    margin: 8px;
+    padding: 10px;
+}
+
+.titulo{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.subtitulo{
+    margin: 5px;
+}
+
+.botao{
+    height: 40px;
+    background: none;
+    border-radius: 5px;
+    color: rgb(197, 94, 94);
+    border: 2px solid rgb(197, 94, 94);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.5s;
+    
+}
+
+.botao:hover{
+    background-color: rgb(197, 94, 94);
+    color: white;
+}
